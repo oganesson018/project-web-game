@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Home - Lugx gaming website</title>
-  <link rel="stylesheet" href="styles/home.css">
+  <link rel="stylesheet" href="styles/Home.css">
   <link rel="icon" type="image/x-icon" href="images/favicon.png">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
 </head>
@@ -28,34 +28,17 @@
       <div class="container">
         <div class="nav__bar">
           <div class="logo">
-            <img src="images/logo.png" alt="Logo">
+            <img src="images/logo.png" alt="">
           </div>
 
           <ul class="header__list">
             <li class="list__items">
-              <a href="#" class="header__link active">Home</a>
+              <a href="Index.html" class="header__link active">Home</a>
             </li>
 
             <li class="list__items">
-              <a href="ourshop.html" class="header__link">Our Shop</a>
+              <a href="login.html" class="header__link signin">SIGN IN</a>
             </li>
-
-            <li class="list__items">
-              <a href="details.html" class="header__link">Product Details</a>
-            </li>
-
-            <!-- ตะกร้าแสดงจำนวนสินค้า -->
-            <a href="cartout.html">
-            <div class="image-container">
-              <link rel="stylesheet" href="home.css">
-              <img src="images/grocery-store.png" alt="รูปภาพหลัก">
-              <div class="overlay-text">
-                <ul id="cart-items"></ul>
-                <div class="cart-counter" id="cart-count">0</div>
-              </div>
-            </div>
-            </a>
-
           </ul>
           <div class="menu__btn">
             <div class="hamburger__menu"></div>
@@ -86,7 +69,7 @@
               <div class="right__img">
                 <span class="price"> $22 </span>
                 <img src="images/banner-image.jpg" alt="">
-                <span class="offer"> - 40 %</span>
+                <span class="offer"> -40%</span>
               </div>
             </div>
           </div>
@@ -129,7 +112,6 @@
           <h4 class="section__littletitle">ALL GAMES</h4>
           <div class="trendgame__top-sect">
             <h2 class="section__largtitle">All Games</h2>
-          <a href="ourshop.html" class="trendgame__link">VIEW ALL</a>
           </div>
 
           <div class="trendgames" id="productList">
@@ -137,9 +119,13 @@
           </div>
 
           <!-- ปุ่มเลื่อน -->
-          <div class="pagination">
-            <button id="prevBtn">Previous</button>
-            <button id="nextBtn">Next</button>
+          <div class="button-grounp">
+            <button class="btn__previous" id="prevBtn">
+              <img src="images/left-triangular-arrowhead.png" alt="" class="btn__icon">
+            </button>
+            <button class="btn__next" id="nextBtn">
+              <img src="images/right-triangular-arrowhead.png" alt="" class="btn__icon">
+            </button>
           </div>
         </div>
       </section>
@@ -149,8 +135,6 @@
     <footer class="footer">
       <div class="container">
         <div class="copy__right">
-          <h3 class="webdeveloper">Website developer : <a href="#">Your Name</a></h3>
-          <h3 class="disignby">Design by : <a href="#">TemplateMo</a></h3>
         </div>
       </div>
     </footer>
