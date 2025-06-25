@@ -19,5 +19,5 @@ function addToCart(name, price) {
       document.getElementById('cart-count').textContent = `${totalCount}`;
     }
 
-    // โหลดจำนวนตะกร้าเมื่อเปิดหน้า
+    /* โหลดจำนวนตะกร้าเมื่อเปิดหน้า */
     window.onload = updateCartCount;
