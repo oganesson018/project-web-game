@@ -624,14 +624,15 @@ button.clicked {
     }
 
     .image-container img {
-      width: 15%;
+      width: 10%;
       height: auto;
     }
 
     .overlay-text {
       position: absolute;
       top: 0%;
-      left: 23%;
+      left: 18%;
+      bottom: 65%;
       transform: translate(-50%, -50%);
     }
 
@@ -640,7 +641,8 @@ button.clicked {
       right: 20px;
       background: #ee626b;
       color: white;
-      padding: 10px 15px;
-      border-radius: 30px;
+      padding: 10px 13px;
+      border-radius: 50px;
+      font-size: small;
       font-weight: bold;
 }
